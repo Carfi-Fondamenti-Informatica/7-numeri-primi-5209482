@@ -1,7 +1,7 @@
-#ifndef lib_lib_H
-#define lib_lib_H
+#ifndef ESERCITAZIONE7_LIB_H
+#define ESERCITAZIONE_LIB_H
 
-bool numeriprimi(int n, int d);
+bool numeriprimi(int n, int d=2);
 
 
-#endif //lib_lib_H
+#endif //ESERCITAZIONE7_LIB_H
