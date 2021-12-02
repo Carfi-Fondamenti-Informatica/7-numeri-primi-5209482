@@ -5,11 +5,11 @@ bool numeriprimi(int n , int d) {
     if(d<n) {
       rest = n % d;
       if (rest != 0) {
-        return numeriprimi(n, d+1);
-      }else{
+        return numeriprimi(n, d + 1);
+      } else {
         return false;
       }
-    }else{
+    } else {
       return true;
     }
   }else if(n==2){
